@@ -21,6 +21,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build
+
       - name: Screenshot Website
         uses: swinton/screenshot-website@v1.x
         with:
